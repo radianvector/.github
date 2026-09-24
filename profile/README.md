@@ -26,7 +26,7 @@ Most published inference numbers cannot be checked: the configuration is unstate
 Two benchmark studies, free to read, no registration:
 
 - **[Beyond tokens per second](https://radianvector.com/benchmarks/qwen3-8-27b-rtx-4090)** — 71 controlled inference configurations on a single 24 GiB card: four 4-bit checkpoint builds, KV-cache precision, CUDA graphs, speculative decoding and concurrency from one user to thirty-two, with answer accuracy measured on every arm. Includes a 7.4% throughput gain we measured and then qualified, because on short answers it cost 6.5 accuracy points.
-- **[Thinking on, measured](https://radianvector.com/benchmarks/qwen3-8-27b-thinking-rtx-4090)** — what a model's native reasoning mode is worth and where it stops paying, across four effort settings, four checkpoints and nine concurrency levels.
+- **[Thinking on, Thinking off](https://radianvector.com/benchmarks/qwen3-8-27b-thinking-rtx-4090)** — what a model's native reasoning mode is worth and where it stops paying, across four effort settings, four checkpoints and nine concurrency levels.
 
 Method, instrument and open questions: **[radianvector.com/research](https://radianvector.com/research)**
 
