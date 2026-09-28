@@ -43,6 +43,7 @@ Tutorials on model internals: **[radianvector.com/tutorials](https://radianvecto
 
 ## Roadmap
 
+- Useful tools to manage, test and run GPU based AI model experiments
 - Raw data behind the published studies
 - Extending the harness to agent and tool-use evaluation
 - Wider platform (SGLang, TensorRT-LLM, etc) and runtime coverage
