@@ -1,4 +1,3 @@
-```markdown
 # RadianVector
 
 RadianVector works on evaluating and improving how AI models run.
@@ -61,4 +60,4 @@ Tutorials on model internals: **[radianvector.com/tutorials](https://radianvecto
 ---
 
 [radianvector.com](https://radianvector.com) · [hello@radianvector.com](mailto:hello@radianvector.com) · Silicon Valley, California, USA
-```
+
