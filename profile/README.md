@@ -1,9 +1,9 @@
+```markdown
 # RadianVector
 
 RadianVector works on evaluating and improving how AI models run.
 
 Our work spans language, image, audio, video, and multimodal models, with a focus on practical AI systems research and engineering across:
-
 - **Inference** — performance, throughput, latency, quantization, speculative decoding, serving, and runtime configuration.
 - **Agents** — agent execution, tool use, reliability, and evaluation.
 - **Evaluations** — reproducible evaluation harnesses, behavioral testing, model reliability, and safety and reliability evaluations.
@@ -14,12 +14,23 @@ Repositories in this organization contain code accompanying RadianVector researc
 
 Website: https://radianvector.com
 
-
-## RadianVector - Current work 
+## RadianVector - Current work
 
 We measure how AI models behave once they are quantized, served and put under load — and publish what we can share and what we think is useful to the community.
 
-Most published inference numbers cannot be checked: the configuration is unstated, the scoring is opaque, runs are single, and nothing that failed appears. We build fixed instruments, score them by code, compare configurations question by question, and measure how much two identical runs disagree to give insights into reproducibility and randomness of runs. 
+Most published inference numbers cannot be checked: the configuration is unstated, the scoring is opaque, runs are single, and nothing that failed appears. We build fixed instruments, score them by code, compare configurations question by question, and measure how much two identical runs disagree to give insights into reproducibility and randomness of runs.
+
+## Repositories
+
+### [inferlint](https://github.com/radianvector/inferlint)
+
+Measure what your inference server actually did — and flag what it didn't tell you.
+
+inferlint checks achieved concurrency, preemptions, KV-cache behavior, GPU state, timing quality, teardown failures, and other signals that can silently invalidate inference results.
+
+`pipx install inferlint`
+
+[PyPI →](https://pypi.org/project/inferlint/) · [Tutorial →](https://radianvector.github.io/inferlint/) · [Project page →](https://radianvector.com/open-source/)
 
 ## Published work
 
@@ -40,25 +51,14 @@ Tutorials on model internals: **[radianvector.com/tutorials](https://radianvecto
 
 **Reproducibility tooling.** Every published figure names the campaign it came from, and automated checks recompute each one from the raw results before a page ships.
 
-
 ## Roadmap
 
-- Useful tools to manage, test and run GPU based AI model experiments
+- Useful tools to manage, test and run GPU-based AI model experiments
 - Raw data behind the published studies
 - Extending the harness to agent and tool-use evaluation
-- Wider platform (SGLang, TensorRT-LLM, etc) and runtime coverage
-
-
-## Repositories
-
-### [inferlint](https://github.com/radianvector/inferlint)
-
-Measure what your inference server actually did — and flag what it didn't tell you.
-
-inferlint checks achieved concurrency, preemptions, KV-cache behavior, GPU state, timing quality, teardown failures, and other signals that can silently invalidate inference results.
-
-[GitHub →](https://github.com/radianvector/inferlint) · [Tutorial →](https://radianvector.github.io/inferlint/)
+- Broader inference-stack coverage, including SGLang and TensorRT-LLM
 
 ---
 
 [radianvector.com](https://radianvector.com) · [hello@radianvector.com](mailto:hello@radianvector.com) · Silicon Valley, California, USA
+```
