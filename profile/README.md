@@ -48,9 +48,16 @@ Tutorials on model internals: **[radianvector.com/tutorials](https://radianvecto
 - Extending the harness to agent and tool-use evaluation
 - Wider platform (SGLang, TensorRT-LLM, etc) and runtime coverage
 
+
 ## Repositories
 
-This organization will hold the code, instruments and data behind RadianVector's published research. It is new — the first repositories are being prepared.
+### [inferlint](https://github.com/radianvector/inferlint)
+
+Measure what your inference server actually did — and flag what it didn't tell you.
+
+inferlint checks achieved concurrency, preemptions, KV-cache behavior, GPU state, timing quality, teardown failures, and other signals that can silently invalidate inference results.
+
+[GitHub →](https://github.com/radianvector/inferlint) · [Tutorial →](https://radianvector.github.io/inferlint/)
 
 ---
 
