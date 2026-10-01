@@ -1,4 +1,4 @@
-# RadianVector - Broad scope
+# RadianVector
 
 RadianVector works on evaluating and improving how AI models run.
 
